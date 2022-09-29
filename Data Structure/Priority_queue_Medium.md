@@ -1,12 +1,13 @@
-> # Java class: PriorityQueue
-> 
-> java.lang.Object
->   java.util.AbstractCollection<E>
->       java.util.AbstractQueue<E>
->           java.util.PriorityQueue<E>
-> 
-> An unbounded priority queue based on a priority heap. The elements of the priority queue are ordered according to their natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used. A priority queue does not permit null elements. A priority queue relying on natural ordering also does not permit insertion of non-comparable objects (doing so may result in ClassCastException).
-> The head of this queue is the least element with respect to the specified ordering. If multiple elements are tied for least value, the head is one of those elements -- ties are broken arbitrarily. The queue retrieval operations poll, remove, peek, and element access the element at the head of the queue.
+# Java class: PriorityQueue
+
+java.lang.Object
+  java.util.AbstractCollection<E>
+     java.util.AbstractQueue<E>
+          java.util.PriorityQueue<E>
+
+An unbounded priority queue based on a priority heap. The elements of the priority queue are ordered according to their natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used. A priority queue does not permit null elements. A priority queue relying on natural ordering also does not permit insertion of non-comparable objects (doing so may result in ClassCastException).
+The head of this queue is the least element with respect to the specified ordering. If multiple elements are tied for least value, the head is one of those elements -- ties are broken arbitrarily. The queue retrieval operations poll, remove, peek, and element access the element at the head of the queue.
+
 -- referred from Oracle Java™ Platform Standard Ed. 8:[https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html](https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html)
 
 ## Example:

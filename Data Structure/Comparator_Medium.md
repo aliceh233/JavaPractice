@@ -1,17 +1,18 @@
-> # Java Interface: Comparator
-> 
-> java.util
-> 
-> ## Method Detail
-> compare
-> int compare(T o1,
->                T o2)
-> Compares its two arguments for order. Returns a negative integer, zero, or a positive integer as the first argument is less than, equal to, or greater than the second.
-> In the foregoing description, the notation sgn(expression) designates the mathematical signum function, which is defined to return one of -1, 0, or 1 according to whether the value of expression is negative, zero or positive.
->
+# Java Interface: Comparator
+
+java.util
+
+## Method Detail
+
+int compare(T o1,
+               T o2)
+
+Compares its two arguments for order. Returns a negative integer, zero, or a positive integer as the first argument is less than, equal to, or greater than the second.
+In the foregoing description, the notation sgn(expression) designates the mathematical signum function, which is defined to return one of -1, 0, or 1 according to whether the value of expression is negative, zero or positive.
+
 -- referred from Oracle Java™ Platform Standard Ed. 8:[https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html)
 
-That means:
+Typically:
 
 0: if (x==y)
 -1: if (x < y)

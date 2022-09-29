@@ -1,7 +1,7 @@
-> # Java Interface: Deque
-> 
-> java.util
->
+# Java Interface: Deque
+
+java.util
+
 This interface extends the Queue interface. When a deque is used as a queue, FIFO (First-In-First-Out) behavior results. Elements are added at the end of the deque and removed from the beginning. The methods inherited from the Queue interface are precisely equivalent to Deque methods as indicated in the following table:
 
 <table>

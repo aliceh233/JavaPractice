@@ -1,7 +1,7 @@
-> # Java Interface: BitSet
-> 
-> java.util
->
+# Java Interface: BitSet
+
+java.util
+
 -- referred from Oracle Java™ Platform Standard Ed. 8:[https://docs.oracle.com/javase/7/docs/api/java/util/BitSet.html](https://docs.oracle.com/javase/7/docs/api/java/util/BitSet.html)
 
 ## Example:
